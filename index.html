@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1, initial-scale=1.0">
+    <meta name="keyword" content="Notas Finales, Ignacio Garriga, JavaScript, Desafio Guiado M2">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="/assets/js/script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <h1>Notas Finales JS</h1>
+    <input class="btn-inicio" type="button" onclick="iniciar();" value="Ingresa Datos" >
+</header>
+<section class="datos">
+    <h2>Informacion Personal</h2>
+    <div class="datos-completo" id="nombrec">Nombre:</div>
+    <div class="datos-completo" id="carrerac">Carrera:</div>
+</section>
+<section class="prom1" >
+<div class="div-notas">
+    <h2>HTML5</h2>
+    <p>Nota 1: <input type="text" id="nota1"></p>
+    <p>Nota 2: <input type="text" id="nota2"></p>
+    <p>Nota 3: <input type="text" id="nota3"></p>
+    <p class="btn-calc"><input type="button" value="Calcular" onclick="PromCalc()"></p>
+    <p class="promedio-res" id="respuesta">Promedio:</p>
+</div>
+<div class="div-notas">
+    <h2>CSS3</h2>
+    <p>Nota 1: <input type="text" id="nota1"></p>
+    <p>Nota 2: <input type="text" id="nota2"></p>
+    <p>Nota 3: <input type="text" id="nota3"></p>
+    <p class="btn-calc"><input type="button" value="Calcular" onclick="PromCalc2()"></p>
+    <p class="promedio-res" id="respuesta2">Promedio:</p>
+</div>
+<div class="div-notas">
+    <h2>JavaScript</h2>
+    <p>Nota 1: <input type="text" id="nota1"></p>
+    <p>Nota 2: <input type="text" id="nota2"></p>
+    <p>Nota 3: <input type="text" id="nota3"></p>
+    <p class="btn-calc"><input type="button" value="Calcular" onclick="PromCalc3()"></p>
+    <p class="promedio-res" id="respuesta3">Promedio:</p>
+</div>
+</section>
+<section class="notas-promt">
+    <h2>HTML5</h2>
+    <div class="notas-prompt-div" id="nota10">Nota 1</div>
+    <div class="notas-prompt-div" id="nota20">Nota 2</div>
+    <div class="notas-prompt-div" id="nota30">Nota 3</div>
+    <div class="promedio-div" id="promediopromt">Promedio</div>
+    <input class="btn-inicio" type="button" onclick="calcularPromedio();" value="Ingresar Notas">
+</section>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+*{
+    margin: 10;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    font-size: 40px;
+    text-decoration: underline;
+}
+.btn-inicio{
+    background-color: black;
+    color: white;
+    width: 320px;
+}
+.datos{
+    margin-top: 20px;
+}
+.datos-completo{
+    border: 1px solid black;height: 20px;
+    margin-top: 10px;
+    width: 50%;
+}
+.prom1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.promedio-res{
+    border: 1px solid black;height: 25px;
+}
+.btn-calc{
+    padding-left: 80px;
+}
+
+.notas-promt{
+    margin-top: 40px;
+    margin-left: 800px;
+}
